@@ -1,0 +1,30 @@
+local WingTable = {
+["GoldCost"] = 0,
+["BadgeID"] = 2127224809,
+["Title"] = "Shoulder-Mounted Wing",
+}
+game:GetService("ReplicatedStorage").Shop.Remotes.Cosmetics.PurchaseCosmeticsRequest:FireServer(WingTable)
+
+local HatTable = {
+["GoldCost"] = 0,
+["BadgeID"] = 2127224823,
+["Title"] = "Lemonade Hat",
+}
+
+game:GetService("ReplicatedStorage").Shop.Remotes.Cosmetics.PurchaseCosmeticsRequest:FireServer(HatTable)
+
+local ParrotTable = {
+["GoldCost"] = 0,
+["BadgeID"] = 2127224806,
+["Title"] = "Alien Parrot",
+}
+
+game:GetService("ReplicatedStorage").Shop.Remotes.Cosmetics.PurchaseCosmeticsRequest:FireServer(ParrotTable)
+
+local HeadsetTable = {
+["GoldCost"] = 0,
+["BadgeID"] = 2127234743,
+["Title"] = "Sparky Headset",
+}
+
+game:GetService("ReplicatedStorage").Shop.Remotes.Cosmetics.PurchaseCosmeticsRequest:FireServer(HeadsetTable)
