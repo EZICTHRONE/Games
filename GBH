@@ -1,0 +1,14 @@
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-197.50, -82.50, -544.73)
+wait(1)
+for i,v in pairs(game:GetService("Workspace").World.Buildings.Subway.VendingMachines:GetDescendants()) do
+    if v:IsA("ProximityPrompt") then
+        v.MaxActivationDistance = math.huge
+        fireproximityprompt(v)
+    end
+end
+
+UGCItemReward = game:GetService("Players").LocalPlayer.PlayerGui.UGCItemReward
+UGCItemReward.Enabled = true
+UGCItemReward.ModalWindow.TopBar.ModalHeading.Text = "Items Claimed!"
+UGCItemReward.ModalWindow.Content.BodyLabel.Text = "Thanks for using my script\nHave a nice rest of your day <3"
+UGCItemReward.ModalWindow.Content.BadgeIcon.Image = "rbxassetid://2691749281"
