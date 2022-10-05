@@ -1,5 +1,5 @@
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/qwdPKKDN"))()
-local venyx = library.new("HAMEWARE", 5013109572)
+local venyx = library.new("Nice Cheats", 5013109572)
 
 local themes = {
    Background = Color3.fromRGB(24, 24, 24),
@@ -14,11 +14,11 @@ local themes = {
 local mouse = game.Players.LocalPlayer:GetMouse()
 local BodyParts = {'LeftFoot', 'LeftHand', 'LeftLowerArm', 'LeftLowerLeg', 'LeftUpperArm', 'LeftUpperLeg', 'LowerTorso', 'RightFoot', 'RightHand', 'RightLowerArm', 'RightLowerLeg', 'RightUpperLeg', 'RightUpperArm', 'UpperTorso', 'Head'}
 local invitecode = ""
-local HAMEWARE_Chatspam = {"HAMEWARE ON TOP!", "OWNING ANY OTHER CHEAT THEN HAMEWARE MAKES YOU AN IDIOT LIBERAL", "HAMEWARE PENCE 2020", "HAMEWARE WINNING", "GET GOOD GET HAMEWARE", "discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode, "HAMEWARE | TWO STUDS AHEAD OF THE GAME"}
-local Furry_Chatspam = {'UwU Sowwiez! Im using hameware and owning youwww </3', 'OwO hameware is tapping aww of youw fwiends :c', 'e.e you arent using hameware?? Dat makes meh angerye!! >:c', '>.< I am tapping eyes closed with hameware~', ':3 come get hameware! discoard.gg/'..invitecode, 'OvO hameware is slotted!! C:', 'UvU no challenge for hameware! </3'}
-local Swiss_Chatspam = {'SalÃ¼ zÃ¤mme Ig bin en schwiizer.', 'Hei u-huara dreck isch denn da imfall', 'Ier sing alli extrem schlecht i dem spiil lol', 'Wa wennd ier eigentlich, ich bin eh besser also leafet doch???', 'Han kei bock meh gege euch spiele, ier sind alli extrem schlecht', 'Boah alter in zuri hets boes fuetz!', 'Ig schwoer hameware isch immer ontop!', 'Hameware isch de best script wo nid full-public isch', 'holl der doch hameware! discord.gg/'..invitecode}
-local HvH_Chatspam = {"HHHHHH D0g owned by Hameware user hhh", "No Hameware no talk dog LLLL", "hhhh imagine not owning hameware NN dog 2k20 Hamewareless", "come 5v5 dumb dog", "Absolute dog hhhh no Hameware no talk nn", "I'm hvh legende so shhhh", "hdf eins du hs", 'einsclick hdf hund', 'schnauze nn ich bin hvh legende', 'Hvh legend here', 'Hameware hameware nr #1 cheat', 'Antiaim top of the game'}
-local China_Chatspam = {"HAMEWAREæä½³", "HAMEWAREä¸è¡£", "èæ¬é»å®¢è½¯ä»¶", "äºé©¬é", "æ·éè", "æåæºé»å®¢hameware", "å¤©å®é¨å¹¿åºæ¯åçï¼ä¸é¢æhameware, tianamen square", "ä¹æ²»Â·å¼æ´ä¼å¾·", "ç·äººå¥³äººç«ä¸­å½é¡¶", "å¯æçé»äºº", "æ¯ç²è´´è½¯ä»¶", "xå¼å¾", "æ°´å°ç", "é´èææ¯", "é»è²çæ´»æ æè°BLM", "femboyesæ¯åæ§æ"}
+local NiceCheats_Chatspam = {"Nice Cheats TOP!", "OWNING ANY OTHER CHEAT THEN NiceCheats MAKES YOU AN IDIOT LIBERAL", "Nice Cheats PENCE 2022", "NiceChetas WINNING", "GET GOOD GET NiceChetas", "discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode, "NiceCheats | TWO STUDS AHEAD OF THE GAME"}
+local Furry_Chatspam = {'UwU Sowwiez! Im using nicecheats and owning youwww </3', 'OwO nicecheats is tapping aww of youw fwiends :c', 'e.e you arent using nicecheats?? Dat makes meh angerye!! >:c', '>.< I am tapping eyes closed with nicecheats~', ':3 come get nicecheats! discoard.gg/'..invitecode, 'OvO nicecheats is slotted!! C:', 'UvU no challenge for nicecheats! </3'}
+local Swiss_Chatspam = {'SalÃ¼ zÃ¤mme Ig bin en schwiizer.', 'Hei u-huara dreck isch denn da imfall', 'Ier sing alli extrem schlecht i dem spiil lol', 'Wa wennd ier eigentlich, ich bin eh besser also leafet doch???', 'Han kei bock meh gege euch spiele, ier sind alli extrem schlecht', 'Boah alter in zuri hets boes fuetz!', 'Ig schwoer NiceCheats isch immer ontop!', 'NiceCheats isch de best script wo nid full-public isch', 'holl der doch NiceCheats! discord.gg/'..invitecode}
+local HvH_Chatspam = {"HHHHHH D0g owned by NiceCheats user hhh", "No NiceCheats no talk dog LLLL", "hhhh imagine not owning NiceCheats NN dog 2k22 NiceCheatsless", "come 5v5 dumb dog", "Absolute dog hhhh no NiceCheats no talk nn", "I'm hvh legende so shhhh", "hdf eins du hs", 'einsclick hdf hund', 'schnauze nn ich bin hvh legende', 'Hvh legend here', 'Hameware hameware nr #1 cheat', 'Antiaim top of the game'}
+local China_Chatspam = {"NiceCheatsæä½³", "NiceCheatsä¸è¡£", "èæ¬é»å®¢è½¯ä»¶", "äºé©¬é", "æ·éè", "æåæºé»å®¢NiceCheats", "å¤©å®é¨å¹¿åºæ¯åçï¼ä¸é¢æNiceCheats, tianamen square", "ä¹æ²»Â·å¼æ´ä¼å¾·", "ç·äººå¥³äººç«ä¸­å½é¡¶", "å¯æçé»äºº", "æ¯ç²è´´è½¯ä»¶", "xå¼å¾", "æ°´å°ç", "é´èææ¯", "é»è²çæ´»æ æè°BLM", "femboyesæ¯åæ§æ"}
 local uion = true
 local circle = Drawing.new("Circle")
 local LP = game:GetService("Players").LocalPlayer
@@ -647,8 +647,8 @@ while true do
            spawn(function()
                ChatDebounce = true
                while ChatDebounce do
-                   if Chatspam_Type == 'HAMEWARE' then
-                       game.ReplicatedStorage.Events.PlayerChatted:FireServer(HAMEWARE_Chatspam[math.random(1, #HAMEWARE_Chatspam)], false, false, false, true)
+                   if Chatspam_Type == 'NiceCheats' then
+                       game.ReplicatedStorage.Events.PlayerChatted:FireServer(NiceCheats_Chatspam[math.random(1, #NiceCheats_Chatspam)], false, false, false, true)
                    elseif Chatspam_Type == 'Furry' then
                        game.ReplicatedStorage.Events.PlayerChatted:FireServer(Furry_Chatspam[math.random(1, #Furry_Chatspam)], false, false, false, true)
                    elseif Chatspam_Type == 'Swiss' then
