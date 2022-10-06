@@ -250,7 +250,7 @@ Troll:addToggle("Chatspam", nil, function(value)
    Chatspam_Toggled = value
 end)
 
-Troll:addDropdown("Chatspam Type", {"HAMEWARE", "Furry", "Swiss", "HvH", "China"}, function(text)
+Troll:addDropdown("Chatspam Type", {"Nice Cheats", "Furry", "Swiss", "HvH", "China"}, function(text)
    Chatspam_Type = text
 end)
 
