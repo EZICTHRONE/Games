@@ -1,8 +1,4 @@
--- https://discord.gg/Uj4ZYJungZ
--- join nova hub
--- some of the features here are from nova hub
--- len you are a really good scripter
--- ok now have fun gamers
+
 
 
 if KillAuraHitCooldown == nil then
