@@ -61,7 +61,7 @@ local function DrawESP(plr)
     local function Update()
         local c
         c = game:GetService("RunService").RenderStepped:Connect(function()
-            if plr.Humanoid ~= nil and plr.Humanoid ~= nil and plr.HumanoidRootPart ~= nil and plr.Humanoid.Health > 0 and plr.Head ~= nil then
+            if StarterPlayer.StarterCharacter.Humanoid ~= nil and StarterPlayer.StarterCharacter.Humanoid ~= nil and StarterPlayer.StarterCharacter.HumanoidRootPart ~= nil and StarterPlayer.StarterCharacter.Humanoid.Health > 0 and plr.Head ~= nil then
                 local Distance = (Camera.CFrame.Position - plr.Character.HumanoidRootPart.Position).Magnitude
                 local Vector, OnScreen = Camera:WorldToScreenPoint(plr.Character.Head.Position)
 
