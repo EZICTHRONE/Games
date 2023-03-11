@@ -54,17 +54,20 @@ local Aimbot = {}; do
             return false
         end
     end
+
     function Aimbot:TeamCheck(Player, Toggle)
 		if Toggle then
 			for i,v in pairs(game.Players:GetPlayers()) do
-                            if v.Team ~= game.Players.LocalPlayer.Team then
-                               return false
-                            end
-                        end
-		else
-			return true
-		end
+                if v.Team ~= game.Players.LocalPlayer.Team then
+                    return false
+                else
+                    return true
+                end
+            
+            end
+        end
 	end
+
 	function Aimbot:GetClosestPlayerToMouse()
 		local ClosestPlayer = nil
 		local ClosestPlayerDistance = math.huge
