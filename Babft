@@ -58,10 +58,9 @@ while _G.Busy do
     end
  
     penguin:FireServer("PenguinCharacter")
-    client.Character:Remove()
- 
+    client.Character.Humanoid.Health = 0
+    wait(8)
     repeat wait() 
     until client.Character and client.Character:FindFirstChild("HumanoidRootPart")
     
 end
----------
